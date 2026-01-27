@@ -98,7 +98,7 @@ max-width: 585px;
 vertical-align: middle;
 }
 #about{
-    padding-top: 130px;
+    padding-top: 70px;
 }
 #about .about-container{
     width: 71%;
@@ -121,3 +121,54 @@ vertical-align: middle;
  .about-info .info-card h4{
     font-size: 16px;
  }
+ #another-about {
+  
+      padding-top: 30px;
+ }
+ #another-about .another{
+     width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 150px;
+ }
+ #another-about .another h2{
+    font-size: 30px;
+ }
+  #another-about .another p{
+    text-align: center;
+    color: #757575;
+     line-height: 30px;
+  }
+  .card{
+   padding: 100px 230px;
+  }
+  .card .card-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .javascript, .React, .Node-Js, .MongoBd{
+    width: 264px;
+    height: 426px;
+     border: 1px solid red;
+     padding: 56px 45px 30px 33px;
+  }
+  .resume{
+    margin: 80px 230px 277px;
+  }
+    .resume h2{
+        text-align: center;
+       margin-bottom: 80px;
+    }
+  .resume .resume-contain{
+    display: flex;
+    gap: 200px;
+    justify-content: space-between;  
+  }
+  .resume-contain .education.experience{
+    min-width: 500px;
+    height: 900px;
+  }
+
