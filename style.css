@@ -20,6 +20,7 @@ header{
     background:url(./developer.png),url(./header_bg.png), #FFF8F3;
     background-position: top left, bottom right ;
     background-repeat: no-repeat;
+    background-size: 136px 774px;
     padding-top: 50px;
 }
 nav{
@@ -152,11 +153,11 @@ vertical-align: middle;
   .javascript, .React, .Node-Js, .MongoBd{
     width: 264px;
     height: 426px;
-     border: 1px solid red;
      padding: 56px 45px 30px 33px;
+     box-shadow: 0  6px 50px 0 #00000030;
   }
   .resume{
-    margin: 80px 230px 277px;
+    margin: 20px 257px 140px;
   }
     .resume h2{
         text-align: center;
@@ -169,6 +170,45 @@ vertical-align: middle;
   }
   .resume-contain .education.experience{
     min-width: 500px;
-    height: 900px;
+    height: 300px;
   }
-
+.text-center{
+    text-align: center;
+}
+footer{
+    margin-top: 31px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 115px;
+}
+.footer-container .social{
+    max-width: 562px;   
+}
+.footer-container .social p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+     margin-bottom: 30px;
+}
+.footer-container h2{
+    font-size: 30px;
+    color:#181818;
+    margin-bottom: 20px;
+}
+.footer-container .icon a{
+    margin-right: 24px;
+}
+.footer-container form input[type="text"],.footer-container form input[type="email"],.footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+     margin-bottom: 24px;
+     border: none;
+     border-radius: 5px;
+     color: #757575;
+}
